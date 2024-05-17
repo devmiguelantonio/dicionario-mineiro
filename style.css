@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+    background-color: rgb(183, 210, 253);
+    box-shadow: 5px 3px 5px rgb(145, 145, 255);
+    margin-bottom: 30px;
+    border-radius: 0px 0px 5px 5px;
+}
+
+main > p {
+    
+}
+
+header {
+    background-color: rgb(105, 105, 105);
+    min-height: 150px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+header > h1 {
+    color: aliceblue;
+    font-size: 3em;
+    text-shadow: 5px 3px 7px rgb(48, 48, 48);
+}
+
+header > p {
+    font-size: 1.2em;
+    color: aliceblue;
+    max-width: 600px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: auto;
+}
+
+footer {
+    background-color: black;
+}
